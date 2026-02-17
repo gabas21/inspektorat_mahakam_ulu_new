@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPR Widget Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10">
+    <h1 class="text-2xl font-bold mb-4">GPR Widget Test</h1>
+    
+    <!-- Test Case 1: Simple Container -->
+    <div class="mb-8">
+        <h2 class="text-lg font-bold mb-2">Test 1: Simple Container</h2>
+        <div id="gpr-test-1" class="border border-blue-500 p-4 min-h-[500px]">
+            <script type="text/javascript" src="https://widget.kominfo.go.id/gpr-widget-kominfo.min.js"></script>
+            <div id="gpr-kominfo-widget-container"></div>
+        </div>
+    </div>
+
+    <!-- Test Case 2: Flex Container (Current Implementation) -->
+    <div class="mb-8">
+        <h2 class="text-lg font-bold mb-2">Test 2: Flex Container</h2>
+        <div class="h-[600px] flex flex-col border border-red-500 bg-white">
+            <div class="bg-gray-200 p-4">Header</div>
+            <!-- Script placed here as in landing.blade.php -->
+            <script type="text/javascript" src="https://widget.kominfo.go.id/gpr-widget-kominfo.min.js"></script>
+            <div id="gpr-kominfo-widget-container" class="flex-1 overflow-hidden border border-green-500"></div>
+        </div>
+    </div>
+</body>
+</html>
