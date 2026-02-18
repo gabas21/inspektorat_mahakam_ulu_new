@@ -374,7 +374,7 @@
                             NOTE: Jika widget tidak muncul (DNS Error), itu masalah dari server Kominfo/Komdigi.
                             URL resmi saat ini masih: https://widget.kominfo.go.id/gpr-widget-kominfo.min.js
                         -->
-                        <script type="text/javascript" src="https://widget.kominfo.go.id/gpr-widget-kominfo.min.js" async></script>
+                        <script type="text/javascript" src="https://widget.komdigi.go.id/gpr-widget-kominfo.min.js" async></script>
                         <div id="gpr-kominfo-widget-container" class="w-full h-full"></div>
                     </div>
                 </div>
