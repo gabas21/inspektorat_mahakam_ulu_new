@@ -149,6 +149,9 @@
 
 
 
+
+@include('components.pdf-modal')
+
 @push('scripts')
 <script src="{{ asset('js/peraturan-search.js') }}"></script>
 @endpush

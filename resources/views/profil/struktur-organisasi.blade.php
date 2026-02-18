@@ -20,7 +20,7 @@
     <!-- Subtle Dot Pattern -->
     <div class="absolute inset-0 opacity-[0.02]" style="background-image: radial-gradient(rgba(255,255,255,0.3) 1px, transparent 1px); background-size: 40px 40px;"></div>
     
-    <div class="container mx-auto px-6 relative z-10 py-16">
+    <div class="container mx-auto px-6 relative z-10 pt-32 pb-16">
         <!-- Page Title -->
         <div class="text-center mb-12 reveal">
             <span class="inline-block px-5 py-2 bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 text-emerald-400 text-[10px] md:text-xs font-black rounded-full mb-6 tracking-[0.3em] uppercase shadow-lg shadow-emerald-500/10">

@@ -13,7 +13,7 @@
          class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none" alt="Background">
     <div class="absolute inset-0 bg-teal-950/80"></div>
     
-    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-16">
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-32">
         <div class="relative z-10">
             <span class="inline-block px-3 py-1 bg-emerald-500/20 backdrop-blur-sm border border-emerald-400/30 text-emerald-400 text-[10px] md:text-xs font-black rounded-full mb-4 tracking-[0.3em] uppercase">
                 Bank Data & Regulasi
@@ -148,6 +148,9 @@
 </section>
 
 
+
+
+@include('components.pdf-modal')
 
 @push('scripts')
 <script src="{{ asset('js/peraturan-search.js') }}"></script>

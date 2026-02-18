@@ -2,7 +2,7 @@
 <div id="nav-overlay" class="fixed inset-0 z-[55] hidden opacity-0 transition-opacity duration-300 pointer-events-auto" onclick="closeSubmenus()"></div>
 
 <div class="fixed bottom-4 md:bottom-10 left-1/2 -translate-x-1/2 z-[60] w-[calc(100%-2rem)] md:w-auto max-w-[95vw] md:max-w-none" id="nav-container">
-    <div class="flex items-center justify-center gap-1 md:gap-2 px-2 md:px-3 py-2 md:py-2.5 rounded-[40px] md:rounded-[50px] shadow-2xl border border-white/10 transition-all duration-300 glass-nav">
+    <div class="flex items-center justify-center gap-1 md:gap-2 px-2 md:px-3 py-2 md:py-2.5 rounded-[40px] md:rounded-[50px] shadow-2xl border border-white/10 transition-all duration-300 bg-teal-950/90 backdrop-blur-md">
         
         @php
             $currentRoute = request()->route() ? request()->route()->getName() : '';

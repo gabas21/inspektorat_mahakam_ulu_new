@@ -19,7 +19,7 @@
     <!-- Subtle Dot Pattern -->
     <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(rgba(16, 185, 129, 0.5) 1px, transparent 1px); background-size: 40px 40px;"></div>
 
-    <div class="container mx-auto px-4 relative z-10 pt-16">
+    <div class="container mx-auto px-4 relative z-10 pt-32">
         
         <!-- Page Header -->
         <div class="text-center mb-16">

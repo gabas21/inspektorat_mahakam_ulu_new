@@ -38,3 +38,13 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Button Animations */
+@layer components {
+
+    button:active,
+    a.btn:active,
+    [role="button"]:active {
+        @apply transform scale-95 transition-transform duration-150;
+    }
+}

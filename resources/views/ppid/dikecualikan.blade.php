@@ -162,6 +162,9 @@
     </div>
 </section>
 
+
+@include('components.pdf-modal')
+
 @push('scripts')
 
 
