@@ -19,13 +19,21 @@
     <!-- Subtle Dot Pattern -->
     <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(rgba(16, 185, 129, 0.5) 1px, transparent 1px); background-size: 40px 40px;"></div>
 
-    <div class="container mx-auto px-4 relative z-10 pt-32 flex flex-col items-center">
+    <div class="container mx-auto px-4 relative z-10 pt-40 flex flex-col items-center">
         
-        <!-- Header Text (Minimal) -->
-        <div class="text-center mb-16">
-            <h2 class="text-[10px] uppercase tracking-[0.4em] text-white/30 mb-1">Inspektorat Kabupaten Mahakam Ulu</h2>
-            <h1 class="text-lg md:text-xl font-montserrat font-black uppercase text-white tracking-widest">Aparatur</h1>
-            <div class="w-10 h-0.5 bg-emerald-500/50 mx-auto mt-2"></div>
+        <!-- Page Title -->
+        <div class="text-center mb-16 reveal">
+            <span class="inline-block px-5 py-2 bg-emerald-500/20 backdrop-blur-md border border-emerald-400/30 text-emerald-400 text-[10px] md:text-xs font-black rounded-full mb-6 tracking-[0.3em] uppercase shadow-lg shadow-emerald-500/10">
+                Profil Inspektorat
+            </span>
+            <h2 class="text-4xl md:text-6xl font-black text-white px-2 font-montserrat uppercase tracking-tight leading-[1.1] mb-4">
+                Data <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Aparatur</span>
+            </h2>
+            <p class="text-white/60 text-sm md:text-base font-inter max-w-xl mx-auto">
+                Sumber Daya Manusia yang Profesional dan Berintegritas
+            </p>
+        </div>
+
 @php
     $pejabat = [
         ['name' => 'Rini Sari Dewi, SE', 'jabatan' => 'Sekretaris', 'pangkat' => 'Pembina', 'golongan' => 'IV/a'],
